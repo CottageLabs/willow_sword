@@ -64,6 +64,7 @@ module Integrator
           [::Noid::Rails::Service.new.minter.mint,
            ::Noid::Rails::Service.new.minter.mint]
         end
+        byebug
         work_actor.create(environment(attrs))
       end
 
