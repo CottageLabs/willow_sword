@@ -38,7 +38,7 @@ module WillowSword
 
     def map_xml
       parse_dc
-      @mapped_metadata = @mapped_metadata
+      @mapped_metadata = @metadata
       assign_model if @metadata.any?
     end
 
